@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kura/pages/ConversationPageList.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.yellow,
       ),
-      home: MyHomePage(title: 'Kura'),
+      home: ConversationPageList()
     );
   }
 }
